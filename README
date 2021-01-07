@@ -1,0 +1,32 @@
+To compile on Linux:
+    SDL library installed
+        sudo apt-get install libsdl2-2.0
+
+    SDL development library installed
+        sudo apt-get install libsdl2-dev
+
+    SDL mixer development library installed
+	sudo apt-get install libsdl2-mixer-dev
+
+    Then run make
+
+
+
+To play Normal Game
+    Single player: ./a.out 1 1
+	Controls: wasd to move and space to shoot
+
+    Multiplayer: ./a.out 2 1
+	Controls for second player: arrow keys to move and right shift to shoot
+
+To play Goose Zombie apocalypse
+
+       Single player: ./a.out 1 2
+	Controls: wasd to move and space to shoot
+
+    Multiplayer: ./a.out 2 2
+	Controls for second player: arrow keys to move and right shift to shoot
+
+Controls for controller:
+    Move: Left joystick.
+    Shoot: Right shoulder button. (r1 on Playstation, rb on xbox) 
